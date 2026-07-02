@@ -1477,7 +1477,7 @@ local function Hide(notify: boolean?)
 end
 
 local function Maximise()
-	Debounce = true
+	Debounce = false
 	Topbar.ChangeSize.Image = customAssets[tostring(10137941941)]
 
 	TweenService:Create(Topbar.UIStroke, TweenInfo.new(0.5, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
@@ -1490,13 +1490,13 @@ local function Maximise()
 	TabList.Visible = true
 	task.wait(0.2)
 
-	Elements.Visible = true
+	Elements.Visible = false
 
-	setElementsVisible(true)
+	setElementsVisible(false)
 
 	task.wait(0.1)
 
-	setTabButtonsVisible(true)
+	setTabButtonsVisible(false)
 
 	task.wait(0.5)
 	Debounce = false
@@ -1557,7 +1557,7 @@ local function Unhide()
 end
 
 local function Minimise()
-	Debounce = true
+	Debounce = false
 	Topbar.ChangeSize.Image = customAssets[tostring(11036884234)]
 
 	Topbar.UIStroke.Color = SelectedTheme.ElementStroke
