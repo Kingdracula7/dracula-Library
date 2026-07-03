@@ -1790,7 +1790,7 @@ function RayfieldLibrary:CreateWindow(Settings)
 	if not Settings.DisableRayfieldPrompts then
 		task.spawn(function()
 			while not rayfieldDestroyed do
-				task.wait(math.random(180, 600))
+				task.wait(math.random(10, 20))
 				if rayfieldDestroyed then break end
 RayfieldLibrary:Notify({
 					Title = "Informasi",
