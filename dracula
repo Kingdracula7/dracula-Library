@@ -1794,7 +1794,7 @@ function RayfieldLibrary:CreateWindow(Settings)
 				if rayfieldDestroyed then break end
 RayfieldLibrary:Notify({
 					Title = "Informasi",
-					Content = "Terima kasih sudah pakai UI ini! Kunjungi Discord saya untuk update.",
+					Content = "Follow Tiktok Kingdracula.",
 					Duration = 7,
 					Image = 4370033185,
 				})
