@@ -1790,10 +1790,10 @@ function RayfieldLibrary:CreateWindow(Settings)
 	if not Settings.DisableRayfieldPrompts then
 		task.spawn(function()
 			while not rayfieldDestroyed do
-				task.wait(math.random(120, 600))
+				task.wait(math.random(10, 600))
 				if rayfieldDestroyed then break end
 				RayfieldLibrary:Notify({
-					Title = "Rayfield Interface",
+					Title = "KING DRACULA",
 					Content = "Follow Tiktok Kingdracula",
 					Duration = 7,
 					Image = 4370033185,
