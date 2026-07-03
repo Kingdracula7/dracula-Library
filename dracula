@@ -1792,9 +1792,9 @@ function RayfieldLibrary:CreateWindow(Settings)
 			while not rayfieldDestroyed do
 				task.wait(math.random(180, 600))
 				if rayfieldDestroyed then break end
-				RayfieldLibrary:Notify({
-					Title = "Rayfield Interface",
-					Content = "Enjoying this UI library? Find it at sirius.menu/discord",
+RayfieldLibrary:Notify({
+					Title = "Informasi",
+					Content = "Terima kasih sudah pakai UI ini! Kunjungi Discord saya untuk update.",
 					Duration = 7,
 					Image = 4370033185,
 				})
