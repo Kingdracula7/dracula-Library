@@ -364,8 +364,8 @@ local RayfieldLibrary = {
 			PlaceholderColor = Color3.fromRGB(178, 178, 178)
 		},
 
-		Ocean = {
-			TextColor = Color3.fromRGB(230, 240, 240),
+		Red = {
+			TextColor = Color3.fromRGB(255, 230, 230),
 
 			Background = Color3.fromRGB(20, 30, 30),
 			Topbar = Color3.fromRGB(25, 40, 40),
@@ -1794,10 +1794,9 @@ function RayfieldLibrary:CreateWindow(Settings)
 				if rayfieldDestroyed then break end
 RayfieldLibrary:Notify({
 					Title = "Informasi",
-					Content = "Follow Tiktok Kingdracula.",
+					Content = "Terima kasih sudah pakai UI ini! Kunjungi Discord saya untuk update.",
 					Duration = 7,
 					Image = 4370033185,
-				})
 			end
 		end)
 	end
